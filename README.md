@@ -4,4 +4,4 @@
 
 @ Shelby R Pignat
 
-Licensed under the [MIT License] (LICENSE.txt)
+Licensed under the [MIT License] (LICENSE)
