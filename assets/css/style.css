@@ -1,17 +1,11 @@
-/* Styling the root element of the document with global fonts, including colours*/
-:root {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
 #name {
   font-size: 30px;
+  font-weight: bolder;
   background-color: #92cccd;
   width: 250px;
   text-align: center;
   padding: 5px 10px 5px 0px;
 }
-
 
 .bgimage {
   width: 100%;
@@ -23,19 +17,56 @@
   background-attachment: fixed;
 }
 
-.bgimage h5 {
-  color: white;
-  text-shadow: 2px 2px #333;
-}
-
 .bottom-right {
   position: absolute;
   right: 5%;
 }
 
-h3 {
+h2 {
   font-size: 20px;
   color: var(--dark);
   background-color: #92cccd;
   padding: 5px;
 }
+
+.nav-link {
+  color: #92cccd;
+  font-size: 20px;
+}
+
+#intro {
+ font-size: 1.2rem;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  background-color: white;
+  border: 5px solid #92cccd;
+  border-radius: 50%;
+}
+
+.text-over-img { 
+	z-index: 1; 
+	margin-top: -100px; 
+  margin-left: 5%;
+} 
+
+
+.dark {
+  background-color: black;
+}
+
+.border-right-line {
+border-right: white solid 2px;
+padding-right: 15px;
+}
+
+.border-right-line-black {
+  border-right: black solid 2px;  
+  padding-right: 15px;
+}
+
+
