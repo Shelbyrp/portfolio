@@ -152,3 +152,16 @@ padding-right: 15px;
   }
 
 }
+
+@media only screen and (min-width:1920px) {
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    background-color: white;
+    border: 5px solid #92cccd;
+    border-radius: 50%;
+  }
+}
+
