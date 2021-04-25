@@ -70,5 +70,36 @@ padding-right: 15px;
 }
 
 #navlink {
-  color: #92cccd;
+  color: black;
+}
+
+.bottom-left {
+  position: absolute;
+  left: 0%;
+  bottom: 10%;
+  background-color: var(--blue);
+  color: var(--dark);
+  margin: 0;
+}
+
+.caption{
+  background-color: #92cccd;
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 5%;
+  z-index: 10;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  text-align: center;
+  width: 200px;
+}
+
+.project-name {
+  font-size: 1.1rem;
+}
+
+.project-description {
+  font-size: 0.8rem;
 }
