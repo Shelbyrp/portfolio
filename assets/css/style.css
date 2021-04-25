@@ -132,24 +132,23 @@ padding-right: 15px;
   color: white;
 }
 
-@media only screen and (max-width:995px) {
-.caption{
-  background-color: #92cccd;
-  display: block;
-  right: 15%;
-  bottom: 5%;
-  left: 5%;
-  z-index: 10;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  color: #fff;
-  text-align: start;
-  width: 30%;
-}
+@media only screen and (max-width:768px) {
+  .caption{
+    width: 40%;
+  }
 
-}
-
-@media only screen and (max-width:500px) {
+  .caption1{
+    background-color: #92cccd;
+    position: absolute;
+    right: 15%;
+    bottom: 5%;
+    left: 5%;
+    z-index: 10;
+    padding-top: 1%;
+    padding-left: 2%;
+    color: #fff;
+    text-align: start;
+    width: 38%;
+  }
 
 }
