@@ -1,6 +1,10 @@
 # Portfolio for Shelby Pignat
 
-# License
+## Deployed link
+
+Final link: https://shelbyrp.github.io/portfolio/
+
+## License
 
 @ Shelby R Pignat
 
