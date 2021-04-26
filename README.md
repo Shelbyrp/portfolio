@@ -4,6 +4,8 @@
 
 Any employer is able to view projects that I have worked on or created and successfully view deployed projects. Each of the project examples in this portfolio links to a live application.
 
+![Final result appear as:](./assets/image/portfolio.png)
+
 # HTML Process
 
 1. Created the HTML structure of the page
