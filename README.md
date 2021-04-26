@@ -4,7 +4,7 @@
 
 Any employer is able to view projects that I have worked on or created and successfully view deployed projects. Each of the project examples in this portfolio links to a live application.
 
-![Final result appear as:](./assets/image/portfolio.png)
+![Final result appear as:](./assets/image/portfolioex.png)
 
 # HTML Process
 
@@ -29,7 +29,7 @@ Main
 1. A hero image that scales is shown with a subtitle as well
 2. Section 1 includes an "About Me" heading, information and a profile image
 3. Section 2 includes a "Work" heading, 5 image examples of work that link out to the live application, a project name and description
-4. Section 3 includes a contact heading and links to my phone number, email, Github, LinkedIn and Facebook for potential employers to utilise
+4. Section 3 includes a contact heading and links to my phone number, email, Github, LinkedIn and Resume for potential employers to utilise
 
 
 ## Deployed link
