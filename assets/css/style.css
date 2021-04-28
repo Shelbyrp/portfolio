@@ -35,7 +35,7 @@ h2 {
 }
 
 #intro {
- font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .center-block {
@@ -48,24 +48,23 @@ h2 {
   border-radius: 50%;
 }
 
-.text-over-img { 
-	z-index: 1; 
-	margin-top: -100px; 
+.text-over-img {
+  z-index: 1;
+  margin-top: -100px;
   margin-left: 5%;
-} 
-
+}
 
 .dark {
   background-color: black;
 }
 
 .border-right-line {
-border-right: white solid 2px;
-padding-right: 15px;
+  border-right: white solid 2px;
+  padding-right: 15px;
 }
 
 .border-right-line-black {
-  border-right: black solid 2px;  
+  border-right: black solid 2px;
   padding-right: 15px;
 }
 
@@ -82,7 +81,7 @@ padding-right: 15px;
   margin: 0;
 }
 
-.caption{
+.caption {
   background-color: #92cccd;
   position: absolute;
   right: 15%;
@@ -97,7 +96,7 @@ padding-right: 15px;
   width: 20%;
 }
 
-.caption1{
+.caption1 {
   background-color: #92cccd;
   position: absolute;
   right: 15%;
@@ -132,12 +131,12 @@ padding-right: 15px;
   color: white;
 }
 
-@media only screen and (max-width:768px) {
-  .caption{
+@media only screen and (max-width: 768px) {
+  .caption {
     width: 40%;
   }
 
-  .caption1{
+  .caption1 {
     background-color: #92cccd;
     position: absolute;
     right: 15%;
@@ -151,9 +150,33 @@ padding-right: 15px;
     width: 38%;
   }
 
+  .border-right-line {
+    border-right: white solid 0px;
+    border-bottom: white solid 2px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .border-right-line-black {
+    border-right: black solid 0px;
+    border-bottom: black solid 2px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  h3{
+    align-items: center;
+  }
 }
 
-@media only screen and (min-width:1920px) {
+@media only screen and (max-width: 996px) {
+  h3 {
+    min-width: 110px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
   .center-block {
     display: block;
     margin-left: auto;
@@ -164,4 +187,3 @@ padding-right: 15px;
     border-radius: 50%;
   }
 }
-
