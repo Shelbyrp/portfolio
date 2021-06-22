@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="./assets/image/SP.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Shelby Pignat Portfolio</title>
@@ -15,7 +16,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <h1 id="name">Shelby Pignat</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +43,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5">
-                    <img src="./assets/image/Shelby Profile Pic.png" class="rounded center-block"
+                    <img src="./assets/image/Shelby Profile Pic.png" class="rounded-circle center-block"
                         alt="Shelby Pignat Portrait" style="width: 300px;">
                 </div>
             </div>
@@ -58,7 +59,7 @@
                 </div>
                 <div class="col-sm-8 offset-sm-1 col-md-9 offset-md-1">
                     <p id="intro">
-                        Hi I'm <strong>Shelby!</strong>
+                        Hi I'm <strong class="pink">Shelby Pignat</strong>!
 
                     </p>
                     <p>
@@ -67,7 +68,8 @@
                         list having recently completed a course through the University of Western Australia. This is in
                         addition to the Bachelor of Commerce Degree that I hold from the University of Western
                         Australia. My current
-                        role has has sparked my interest in programming languages and the power of
+                        role as a Digital Marketing Coordinator has sparked my interest in programming languages and the
+                        power of
                         coding.<br /> <br /> Learning how to code is a skill that I believe everyone should have the
                         priviledge to do.
                         View some of my recent work below and feel free to contact me with any queries.
@@ -77,54 +79,80 @@
         </div>
     </article>
 
-    <article class="dark">
-        <div class="container">
-            <div class="row p-2">
-                <div class="col-sm-3 col-md-2">
-                    <h3 class="text-right text-white border-right-line" id="Work">Work</h3>
+    <article class="blue">
+        <div class="container" >
+            <div class="row p-2" >
+                <div class="col-sm-3 col-md-2" id="Work">
+                    <h3 class="text-right text-white border-right-line" >Work</h3>
                 </div>
                 <div class="col-sm-8 offset-sm-1 col-md-9 offset-md-1">
                     <div class="row">
-                        <div class="col-sm-12 offset-sm-0 col-md-12 offset-md-0 p-2"><a
+                        <div class="col-sm-12 offset-sm-0 col-md-12 offset-md-0 p-2 hover">
+                            <a
                                 href="https://dandycodes.github.io/gifta/" target="_blank"><img
-                                    src="./assets/image/Gifta.png" alt="Gifta- Project 1" class="project-img"
+                                    src="./assets/image/Gifta.png" alt="Gifta- Project 1" class="project-img image" id="image-1"
                                     style="width:100%;height:100%;"></a>
-                                    <div class="caption">
-                                        <a href="https://dandycodes.github.io/gifta/" target="_blank"><h4 class="project-name">Gifta</h4></a>
-                                        <a href="https://github.com/DandyCodes/gifta" target="_blank"><h5 class="project-description">View Respository</h5></a>
-                                        </div>
-                                </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 p-2"><a href="https://shelbyrp.github.io/Password-Generator/" target="_blank"><img
-                                    src="./assets/image/screenshot3.png" alt="Password Generator" class="project-img"
+                                    <div class="hover-overlay"></div>
+                            <div class="caption middle">
+                                <a href="https://dandycodes.github.io/gifta/" target="_blank">
+                                    <h4 class="project-name">Gifta</h4>
+                                </a>
+                                <a href="https://github.com/DandyCodes/gifta" target="_blank">
+                                    <h5 class="project-description">View Respository</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6 p-2"><a
+                                href="https://shelbyrp.github.io/Password-Generator/" target="_blank"><img
+                                    src="./assets/image/screenshot3.png" alt="Password Generator" class="project-img image" id="image-2"
                                     style="width:100%;height: auto;"></a>
-                                    <div class="caption1">
-                                        <a href="https://shelbyrp.github.io/Password-Generator/" target="_blank"><h4 class="project-name1">Password Generator</h4></a>
-                                        <a href="https://github.com/Shelbyrp/Password-Generator" target="_blank"><h5 class="project-description1">View Respository</h5></a>
-                                        </div>
+                            <div class="caption1">
+                                <a href="https://shelbyrp.github.io/Password-Generator/" target="_blank">
+                                    <h4 class="project-name1">Password Generator</h4>
+                                </a>
+                                <a href="https://github.com/Shelbyrp/Password-Generator" target="_blank">
+                                    <h5 class="project-description1">View Respository</h5>
+                                </a>
+                            </div>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-0 p-2"><a href="https://shelbyrp.github.io/Weather-Dashboard/"
-                                target="_blank"><img src="./assets/image/example2.png" alt="Weather Dashboard"
-                                    class="project-img" style="width:100%;height:100%;"></a>
-                                    <div class="caption1">
-                                        <a href="https://shelbyrp.github.io/Weather-Dashboard/" target="_blank"><h4 class="project-name1">Weather Dashboard</h4></a>
-                                        <a href="https://github.com/Shelbyrp/Weather-Dashboard" target="_blank"><h5 class="project-description1">View Respository</h5></a>
-                                        </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 p-2"><a href="https://shelbyrp.github.io/Work-Day-Scheduler/" target="_blank"><img
-                                    src="./assets/image/Work-Day-Scheduler.png" alt="Workday Scheduler" class="project-img"
+                        <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-0 p-2"><a
+                                href="https://shelbyrp.github.io/Weather-Dashboard/" target="_blank"><img
+                                    src="./assets/image/example2.png" alt="Weather Dashboard" class="project-img image" id="image-3"
                                     style="width:100%;height:100%;"></a>
-                                    <div class="caption1">
-                                        <a href="https://shelbyrp.github.io/Work-Day-Scheduler/" target="_blank"><h4 class="project-name1">Workday Scheduler</h4></a>
-                                        <a href="https://github.com/Shelbyrp/Work-Day-Scheduler" target="_blank"><h5 class="project-description1">View Respository</h5></a>
-                                        </div>
+                            <div class="caption1">
+                                <a href="https://shelbyrp.github.io/Weather-Dashboard/" target="_blank">
+                                    <h4 class="project-name1">Weather Dashboard</h4>
+                                </a>
+                                <a href="https://github.com/Shelbyrp/Weather-Dashboard" target="_blank">
+                                    <h5 class="project-description1">View Respository</h5>
+                                </a>
+                            </div>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-0 p-2"><a href="https://shelbyrp.github.io/Horiseon-Project/"
-                                target="_blank"><img src="./assets/image/Horiseon.PNG" alt="Code Refactor"
-                                    class="project-img" style="width:100%;height:100%;"></a>
-                                    <div class="caption1">
-                                        <a href="https://shelbyrp.github.io/Horiseon-Project/" target="_blank"><h4 class="project-name1">Code Refactor</h4></a>
-                                        <a href="https://github.com/Shelbyrp/Horiseon-Project" target="_blank"><h5 class="project-description1">View Respository</h5></a>
-                                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6 p-2"><a
+                                href="https://shelbyrp.github.io/Work-Day-Scheduler/" target="_blank"><img
+                                    src="./assets/image/Work-Day-Scheduler.png" alt="Workday Scheduler"
+                                    class="project-img" id="image-4" style="width:100%;height:100%;"></a>
+                            <div class="caption1">
+                                <a href="https://shelbyrp.github.io/Work-Day-Scheduler/" target="_blank">
+                                    <h4 class="project-name1">Workday Scheduler</h4>
+                                </a>
+                                <a href="https://github.com/Shelbyrp/Work-Day-Scheduler" target="_blank">
+                                    <h5 class="project-description1 image">View Respository</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-0 p-2"><a
+                                href="https://shelbyrp.github.io/Horiseon-Project/" target="_blank"><img
+                                    src="./assets/image/Horiseon.PNG" alt="Code Refactor" class="project-img" id="image-5"
+                                    style="width:100%;height:100%;"></a>
+                            <div class="caption1">
+                                <a href="https://shelbyrp.github.io/Horiseon-Project/" target="_blank">
+                                    <h4 class="project-name1">Code Refactor</h4>
+                                </a>
+                                <a href="https://github.com/Shelbyrp/Horiseon-Project" target="_blank">
+                                    <h5 class="project-description1">View Respository</h5>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -142,19 +170,22 @@
                 <div class="col-sm-8 offset-sm-1 col-md-9 offset-md-1">
                     <div class="row">
                         <div class="col-2 col-sm-2 col-md-5 col-lg-2 p-2"><a href="tel:0400981017" target="_blank"><img
-                            src="./assets/image/phone.png" alt="phone"></a>
+                                    src="./assets/image/phone.png" alt="phone"></a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-5 offset-md-2 col-lg-2 offset-lg-0 p-2"><a
                                 href="mailto:shelby.pignat@gmail.com" target="_blank"><img
-                                src="./assets/image/email.png" alt="email"></a></a>
+                                    src="./assets/image/email.png" alt="email"></a></a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-5 col-lg-2 p-2"><a href="https://github.com/Shelbyrp"
-                                target="_blank"><img  src="./assets/image/github.png" alt="github"></a></a>
+                                target="_blank"><img src="./assets/image/github.png" alt="github"></a></a>
                         </div>
                         <div class="col-2 col-sm-2 col-md-5 offset-md-2 col-lg-2 offset-lg-0 p-2"><a
-                                href="https://au.linkedin.com/in/shelby-pignat-08795293" target="_blank"><img src="./assets/image/Linkedin.png" alt="linkedin"></a>
+                                href="https://au.linkedin.com/in/shelby-pignat-08795293" target="_blank"><img
+                                    src="./assets/image/Linkedin.png" alt="linkedin"></a>
                         </div>
-                        <div class="col-2 col-sm-2 col-md-5 col-lg-2 p-2"><a href="https://drive.google.com/file/d/1NXA8rIP8OXIf_nSE2JkAgl2lxv5qXd5e/view?usp=sharing" target="_blank"><img src="./assets/image/Resume.png" alt="Resume"></a>
+                        <div class="col-2 col-sm-2 col-md-5 col-lg-2 p-2"><a
+                                href="https://drive.google.com/file/d/1NXA8rIP8OXIf_nSE2JkAgl2lxv5qXd5e/view?usp=sharing"
+                                target="_blank"><img src="./assets/image/Resume.png" alt="Resume"></a>
                         </div>
                     </div>
                 </div>
