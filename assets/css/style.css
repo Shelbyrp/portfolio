@@ -198,6 +198,42 @@ h2 {
     border: 5px solid #533896;
     border-radius: 50%;
   }
+
+  .caption {
+    width: 40%;
+  }
+
+  .caption1 {
+    background-color: #e32e58;
+    position: absolute;
+    right: 15%;
+    bottom: 5%;
+    left: 5%;
+    z-index: 10;
+    padding-top: 1%;
+    padding-left: 2%;
+    color: #fff;
+    text-align: start;
+    width: 38%;
+  }
+
+  .border-right-line {
+    border-right: white solid 0px;
+    border-bottom: white solid 2px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .border-right-line-black {
+    border-right: black solid 0px;
+    border-bottom: black solid 2px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    align-items: center;
+  }
 }
 
 h3 {
@@ -235,10 +271,6 @@ h3 {
     border-bottom: black solid 2px;
     padding-bottom: 10px;
     margin-bottom: 20px;
-  }
-
-  h3 {
-    align-items: center;
   }
 }
 
