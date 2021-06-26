@@ -16,46 +16,60 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <h1 id="name">Shelby Pignat</h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#About-Me" id="navlink">About Me
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Work" id="navlink">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Contact" id="navlink">Contact</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <h1 id="name">Shelby Pignat</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#About-Me" id="navlink">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Work" id="navlink">Work</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#Contact" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#Contact">Phone</a></li>
+                                <li><a class="dropdown-item" href="#Contact">Email</a></li>
+                                <li><a class="dropdown-item" href="#Contact">Github</a></li>
+                                <li><a class="dropdown-item" href="#Contact">Linkedin</a></li>
+                                <li><a class="dropdown-item" href="#Contact">Resume</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
+
 
     <section class="bgimage">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-5">
                     <img src="./assets/image/Shelby Profile Pic.png" class="rounded-circle center-block"
-                        alt="Shelby Pignat Portrait" style="width: 300px;">
+                        alt="Shelby Pignat Portrait" style="width: 330px;">
                 </div>
             </div>
         </div>
     </section>
 
+
     <article>
+        <span id="About-Me"></span>
         <div class="container mt-5">
             <div class="row p-5">
                 <div class="col-sm-3 col-md-2">
-                    <h3 class="text-right border-right-line-black" id="About-Me">About Me</h3>
-
+                    <h3 class="text-right border-right-line-black pink">About Me</h3>
                 </div>
                 <div class="col-sm-8 offset-sm-1 col-md-9 offset-md-1">
                     <p id="intro">
@@ -65,10 +79,12 @@
                     <p>
                         With a background in digital marketing across a range of industries including construction,
                         tourism and property development, I can now add that I am a Full Stack Web Developer to the
-                        list having recently completed a course through the University of Western Australia. This is in
+                        list having recently completed a course through the University of Western Australia. This is
+                        in
                         addition to the Bachelor of Commerce Degree that I hold from the University of Western
                         Australia. My current
-                        role as a Digital Marketing Coordinator has sparked my interest in programming languages and the
+                        role as a Digital Marketing Coordinator has sparked my interest in programming languages and
+                        the
                         power of
                         coding.<br /> <br /> Learning how to code is a skill that I believe everyone should have the
                         priviledge to do.
@@ -79,91 +95,93 @@
         </div>
     </article>
 
-    <article class="blue">
-        <div class="container">
-            <div class="row p-2">
-                <div class="col-sm-3 col-md-2" id="Work">
-                    <h3 class="text-right text-white border-right-line">Work</h3>
-                </div>
-                <div class="col-sm-8 offset-sm-1 col-md-9 offset-md-1">
-                    <div class="row">
-                        <div class="col-sm-12 offset-sm-0 col-md-12 offset-md-0 p-2 hover">
-                            <a href="https://dandycodes.github.io/gifta/" target="_blank"><img
-                                    src="./assets/image/Gifta.png" alt="Gifta- Project 1" class="project-img image"
-                                    id="image-1" style="width:100%;height:100%;"></a>
-                            <div class="hover-overlay"></div>
-                            <div class="caption middle">
-                                <a href="https://dandycodes.github.io/gifta/" target="_blank">
-                                    <h4 class="project-name">Gifta</h4>
-                                </a>
-                                <a href="https://github.com/DandyCodes/gifta" target="_blank">
-                                    <h5 class="project-description">View Respository</h5>
-                                </a>
+    <section id="Work">
+        <article class="blue">
+            <div class="container">
+                <div class="row p-2">
+                    <div class="col-sm-3 col-md-2">
+                        <h3 class="text-right text-white border-right-line">Work</h3>
+                    </div>
+                    <div class="col-sm-8 offset-sm-1 col-md-9 offset-md-1">
+                        <div class="row">
+                            <div class="col-sm-12 offset-sm-0 col-md-12 offset-md-0 p-2 hover">
+                                <a href="https://safe-beach-27101.herokuapp.com/" target="_blank"><img
+                                        src="./assets/image/hqpage.png" alt="Gifta- Project 1" class="project-img image"
+                                        id="image-1" style="width:100%;height:100%;"></a>
+                                <div class="hover-overlay"></div>
+                                <div class="caption middle">
+                                    <a href="https://safe-beach-27101.herokuapp.com/" target="_blank">
+                                        <h4 class="project-name">Headquarters</h4>
+                                    </a>
+                                    <a href="https://github.com/Robert-Rousset/headquarters" target="_blank">
+                                        <h5 class="project-description">View Respository</h5>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 p-2"><a
-                                href="https://shelbyrp.github.io/Password-Generator/" target="_blank"><img
-                                    src="./assets/image/screenshot3.png" alt="Password Generator"
-                                    class="project-img image" id="image-2" style="width:100%;height: auto;"></a>
-                            <div class="caption1">
-                                <a href="https://shelbyrp.github.io/Password-Generator/" target="_blank">
-                                    <h4 class="project-name1">Password Generator</h4>
-                                </a>
-                                <a href="https://github.com/Shelbyrp/Password-Generator" target="_blank">
-                                    <h5 class="project-description1">View Respository</h5>
-                                </a>
+                            <div class="col-sm-12 col-md-12 col-lg-6 p-2 hover"><a
+                                    href="https://dandycodes.github.io/gifta/" target="_blank"><img
+                                        src="./assets/image/Gifta.png" alt="Password Generator"
+                                        class="project-img image" id="image-2" style="width:100%;height: auto;"></a>
+                                <div class="caption1 middle">
+                                    <a href="https://dandycodes.github.io/gifta/" target="_blank">
+                                        <h4 class="project-name1">Gifta</h4>
+                                    </a>
+                                    <a href="https://github.com/DandyCodes/gifta" target="_blank">
+                                        <h5 class="project-description1">View Respository</h5>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-0 p-2"><a
-                                href="https://shelbyrp.github.io/Weather-Dashboard/" target="_blank"><img
-                                    src="./assets/image/example2.png" alt="Weather Dashboard" class="project-img image"
-                                    id="image-3" style="width:100%;height:100%;"></a>
-                            <div class="caption1">
-                                <a href="https://shelbyrp.github.io/Weather-Dashboard/" target="_blank">
-                                    <h4 class="project-name1">Weather Dashboard</h4>
-                                </a>
-                                <a href="https://github.com/Shelbyrp/Weather-Dashboard" target="_blank">
-                                    <h5 class="project-description1">View Respository</h5>
-                                </a>
+                            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-0 p-2 hover"><a
+                                    href="https://sleepy-tundra-82832.herokuapp.com/" target="_blank"><img
+                                        src="./assets/image/TechieTalk.png" alt="Weather Dashboard"
+                                        class="project-img image" id="image-3" style="width:100%;height:100%;"></a>
+                                <div class="caption1 middle">
+                                    <a href="https://sleepy-tundra-82832.herokuapp.com/" target="_blank">
+                                        <h4 class="project-name1">Techie Talk</h4>
+                                    </a>
+                                    <a href="https://github.com/Shelbyrp/Tech-Blog" target="_blank">
+                                        <h5 class="project-description1">View Respository</h5>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 p-2"><a
-                                href="https://shelbyrp.github.io/Work-Day-Scheduler/" target="_blank"><img
-                                    src="./assets/image/Work-Day-Scheduler.png" alt="Workday Scheduler"
-                                    class="project-img" id="image-4" style="width:100%;height:100%;"></a>
-                            <div class="caption1">
-                                <a href="https://shelbyrp.github.io/Work-Day-Scheduler/" target="_blank">
-                                    <h4 class="project-name1">Workday Scheduler</h4>
-                                </a>
-                                <a href="https://github.com/Shelbyrp/Work-Day-Scheduler" target="_blank">
-                                    <h5 class="project-description1 image">View Respository</h5>
-                                </a>
+                            <div class="col-sm-12 col-md-12 col-lg-6 p-2 hover"><a
+                                    href="https://evening-citadel-18697.herokuapp.com/" target="_blank"><img
+                                        src="./assets/image/notetaker1.png" alt="Workday Scheduler" class="project-img"
+                                        id="image-4" style="width:100%;height:100%;"></a>
+                                <div class="caption1 middle">
+                                    <a href="https://evening-citadel-18697.herokuapp.com/" target="_blank">
+                                        <h4 class="project-name1">Note Taker</h4>
+                                    </a>
+                                    <a href="https://github.com/Shelbyrp/Note-Taker" target="_blank">
+                                        <h5 class="project-description1 image">View Respository</h5>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-0 p-2"><a
-                                href="https://shelbyrp.github.io/Horiseon-Project/" target="_blank"><img
-                                    src="./assets/image/Horiseon.PNG" alt="Code Refactor" class="project-img"
-                                    id="image-5" style="width:100%;height:100%;"></a>
-                            <div class="caption1">
-                                <a href="https://shelbyrp.github.io/Horiseon-Project/" target="_blank">
-                                    <h4 class="project-name1">Code Refactor</h4>
-                                </a>
-                                <a href="https://github.com/Shelbyrp/Horiseon-Project" target="_blank">
-                                    <h5 class="project-description1">View Respository</h5>
-                                </a>
+                            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-0 p-2 hover"><a
+                                    href="https://github.com/Shelbyrp/Team-Profile-Generator" target="_blank"><img
+                                        src="./assets/image/team1.png" alt="Code Refactor" class="project-img"
+                                        id="image-5" style="width:100%;height:100%;"></a>
+                                <div class="caption1 middle">
+                                    <a href="https://github.com/Shelbyrp/Team-Profile-Generator" target="_blank">
+                                        <h4 class="project-name1">Team Profile Generator</h4>
+                                    </a>
+                                    <a href="https://github.com/Shelbyrp/Team-Profile-Generator" target="_blank">
+                                        <h5 class="project-description1">View Respository</h5>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </article>
+        </article>
+    </section>
 
     <article>
         <div class="container">
             <div class="row p-5">
                 <div class="col-sm-3 col-md-2">
-                    <h3 class="text-right border-right-line-black" id="Contact">Contact</h3>
+                    <h3 class="text-right border-right-line-black pink" id="Contact">Contact</h3>
 
                 </div>
                 <div class="col-sm-8 offset-sm-1 col-md-9 offset-md-1">
@@ -200,14 +218,14 @@
     </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
 </body>
 

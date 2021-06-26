@@ -69,8 +69,12 @@ h2 {
 }
 
 .nav-link {
-  color: #4a9ddd;
   font-size: 20px;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #533896 !important;
 }
 
 #intro {
@@ -123,10 +127,6 @@ h2 {
 .border-right-line-black {
   border-right: black solid 2px;
   padding-right: 15px;
-}
-
-.navlink {
-  color: black;
 }
 
 .bottom-left {
@@ -234,15 +234,19 @@ h2 {
   h3 {
     align-items: center;
   }
-}
 
-h3 {
-  font-family: "Bree Serif";
+  .middle {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .caption {
     width: 40%;
+  }
+
+  .middle {
+    opacity: 1;
   }
 
   .caption1 {
@@ -298,9 +302,9 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3%;
+    margin-top: 6%;
     background-color: white;
-    border: 5px solid #e32e58;
+    border: 5px solid #533896;
     border-radius: 50%;
   }
 }
